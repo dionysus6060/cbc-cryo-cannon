@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["ABA", "CDC", "EEE"],
+  "key": {
+    "A": { "item": "createbigcannons:steel_ingot" },
+    "B": { "item": "create:chute" },
+    "C": { "item": "create:shaft" },
+    "D": { "item": "minecraft:blue_ice" },
+    "E": { "item": "create:andesite_casing" }
+  },
+  "result": { "id": "cbc_cryo_cannon:cryo_feeder", "count": 1 }
+}

@@ -1,0 +1,57 @@
+{
+  "credit": "Adapted from VS Hose Connectors by M_K2525",
+  "textures": {
+    "pipe": "cbc_cryo_cannon:block/cryo_feeder/pipes",
+    "particle": "cbc_cryo_cannon:block/cryo_feeder/pipes"
+  },
+  "elements": [
+    {
+      "from": [3, 3, 8],
+      "to": [13, 13, 11.001],
+      "faces": {
+        "north": {"uv": [16, 16, 11, 11], "rotation": 270, "texture": "#pipe"},
+        "east": {"uv": [9, 11, 10.5, 16], "texture": "#pipe"},
+        "south": {"uv": [16, 16, 11, 11], "rotation": 270, "texture": "#pipe"},
+        "west": {"uv": [10.5, 11, 9, 16], "texture": "#pipe"},
+        "up": {"uv": [10.5, 16, 9, 11], "rotation": 90, "texture": "#pipe"},
+        "down": {"uv": [9, 16, 10.5, 11], "rotation": 90, "texture": "#pipe"}
+      }
+    },
+    {
+      "from": [4, 4, 11],
+      "to": [12, 12, 12],
+      "faces": {
+        "north": {"uv": [11.5, 11.5, 15.5, 15.5], "texture": "#pipe"},
+        "east": {"uv": [9, 11.5, 9.5, 15.5], "texture": "#pipe"},
+        "south": {"uv": [11.5, 11.5, 15.5, 15.5], "texture": "#pipe"},
+        "west": {"uv": [9, 11.5, 9.5, 15.5], "texture": "#pipe"},
+        "up": {"uv": [9, 11.5, 9.5, 15.5], "rotation": 90, "texture": "#pipe"},
+        "down": {"uv": [9, 11.5, 9.5, 15.5], "rotation": 270, "texture": "#pipe"}
+      }
+    },
+    {
+      "from": [3, 3, 4.99925],
+      "to": [13, 13, 8.00025],
+      "faces": {
+        "north": {"uv": [16, 16, 11, 11], "rotation": 270, "texture": "#pipe"},
+        "east": {"uv": [10.5, 11, 9, 16], "texture": "#pipe"},
+        "south": {"uv": [16, 16, 11, 11], "rotation": 270, "texture": "#pipe"},
+        "west": {"uv": [9, 11, 10.5, 16], "texture": "#pipe"},
+        "up": {"uv": [10.5, 16, 9, 11], "rotation": 270, "texture": "#pipe"},
+        "down": {"uv": [9, 16, 10.5, 11], "rotation": 270, "texture": "#pipe"}
+      }
+    },
+    {
+      "from": [4, 4, 4.00025],
+      "to": [12, 12, 5.00025],
+      "faces": {
+        "north": {"uv": [11.5, 11.5, 15.5, 15.5], "texture": "#pipe"},
+        "east": {"uv": [9, 11.5, 9.5, 15.5], "texture": "#pipe"},
+        "south": {"uv": [11.5, 11.5, 15.5, 15.5], "texture": "#pipe"},
+        "west": {"uv": [9, 11.5, 9.5, 15.5], "texture": "#pipe"},
+        "up": {"uv": [9, 11.5, 9.5, 15.5], "rotation": 270, "texture": "#pipe"},
+        "down": {"uv": [9, 11.5, 9.5, 15.5], "rotation": 90, "texture": "#pipe"}
+      }
+    }
+  ]
+}

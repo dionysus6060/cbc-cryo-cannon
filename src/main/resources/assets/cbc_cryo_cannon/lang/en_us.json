@@ -1,0 +1,22 @@
+{
+  "itemGroup.cbc_cryo_cannon": "CBC Cryo-Cannon",
+  "block.cbc_cryo_cannon.cryo_breech": "Cryo-Breech",
+  "block.cbc_cryo_cannon.cryo_chamber": "Cryo Cannon Chamber",
+  "block.cbc_cryo_cannon.cryo_barrel": "Cryo Cannon Barrel",
+  "block.cbc_cryo_cannon.cryo_feeder": "Cryo-Feeder",
+  "block.cbc_cryo_cannon.cryolite_shell": "Cryolite Shell",
+  "effect.cbc_cryo_cannon.cryo_freezing": "Cryo-Freezing",
+  "container.cbc_cryo_cannon.cryo_feeder": "Cryo-Feeder",
+  "container.cbc_cryo_cannon.shells": "Shells",
+  "container.cbc_cryo_cannon.fuel_slot": "Fuel",
+  "container.cbc_cryo_cannon.fuel": "%s / %s",
+  "goggle.cbc_cryo_cannon.required_stress": "%ssu required to load cannon.",
+  "message.cbc_cryo_cannon.hose_first": "First Cryo-Hose endpoint selected",
+  "message.cbc_cryo_cannon.hose_first_reset": "Old Cryo-Hose endpoint was gone; this is now the first endpoint",
+  "message.cbc_cryo_cannon.hose_failed": "Cannon link failed: select one unlinked feeder and one unlinked breech",
+  "message.cbc_cryo_cannon.hose_too_far": "Cannon link is too far away",
+  "message.cbc_cryo_cannon.hose_wrong_face": "Connect to the feeder underside and the breech top",
+  "message.cbc_cryo_cannon.hose_self": "Cannon link to itself",
+  "message.cbc_cryo_cannon.hose_linked": "Cannon hose linked",
+  "message.cbc_cryo_cannon.hose_unlinked": "Cannon hose disconnected"
+}

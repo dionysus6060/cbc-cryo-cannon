@@ -1,0 +1,33 @@
+{
+  "mappings": [
+    "spore:infested_stone|minecraft:stone",
+    "minecraft:mycelium|minecraft:dirt",
+    "spore:infested_dirt|minecraft:dirt",
+    "spore:infested_deepslate|minecraft:deepslate",
+    "spore:infested_sand|minecraft:sand",
+    "spore:infested_gravel|minecraft:gravel",
+    "spore:infested_netherrack|minecraft:netherrack",
+    "spore:infested_end_stone|minecraft:end_stone",
+    "spore:infested_soul_sand|minecraft:soul_sand",
+    "spore:infested_red_sand|minecraft:red_sand",
+    "spore:infested_clay|minecraft:clay",
+    "spore:infested_cobblestone|minecraft:cobblestone",
+    "spore:infested_cobbled_deepslate|minecraft:cobbled_deepslate",
+    "spore:infested_laboratory_block|spore:lab_block",
+    "spore:infested_laboratory_block1|spore:lab_block1",
+    "spore:infested_laboratory_block2|spore:lab_block2",
+    "spore:infested_laboratory_block3|spore:lab_block3",
+    "spore:infested_stone_bricks|minecraft:stone_bricks",
+    "spore:infested_bricks|minecraft:bricks"
+  ],
+  "freeze_burned_biomass": [
+    "spore:biomass_block",
+    "spore:calcified_biomass_block",
+    "spore:gastric_biomass_block",
+    "spore:sicken_biomass_block",
+    "spore:membrane_block",
+    "spore:rooted_biomass",
+    "spore:rooted_mycelium"
+  ],
+  "destroy": ["spore:organite"]
+}

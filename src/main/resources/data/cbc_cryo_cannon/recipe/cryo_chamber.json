@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["BBB", "BSB", "BBB"],
+  "key": {
+    "B": { "item": "minecraft:blue_ice" },
+    "S": { "item": "createbigcannons:steel_cannon_chamber" }
+  },
+  "result": { "id": "cbc_cryo_cannon:cryo_chamber", "count": 1 }
+}

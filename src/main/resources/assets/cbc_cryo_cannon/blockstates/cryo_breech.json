@@ -1,0 +1,96 @@
+{
+  "variants": {
+    "axis_along_first=false,facing=north,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech"
+    },
+    "axis_along_first=false,facing=north,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked"
+    },
+    "axis_along_first=false,facing=east,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "y": 90
+    },
+    "axis_along_first=false,facing=east,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "y": 90
+    },
+    "axis_along_first=false,facing=south,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "y": 180
+    },
+    "axis_along_first=false,facing=south,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "y": 180
+    },
+    "axis_along_first=false,facing=west,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "y": 270
+    },
+    "axis_along_first=false,facing=west,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "y": 270
+    },
+    "axis_along_first=false,facing=up,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "x": 90
+    },
+    "axis_along_first=false,facing=up,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "x": 90
+    },
+    "axis_along_first=false,facing=down,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "x": 270
+    },
+    "axis_along_first=false,facing=down,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "x": 270
+    },
+    "axis_along_first=true,facing=north,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech"
+    },
+    "axis_along_first=true,facing=north,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked"
+    },
+    "axis_along_first=true,facing=east,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "y": 90
+    },
+    "axis_along_first=true,facing=east,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "y": 90
+    },
+    "axis_along_first=true,facing=south,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "y": 180
+    },
+    "axis_along_first=true,facing=south,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "y": 180
+    },
+    "axis_along_first=true,facing=west,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "y": 270
+    },
+    "axis_along_first=true,facing=west,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "y": 270
+    },
+    "axis_along_first=true,facing=up,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "x": 90
+    },
+    "axis_along_first=true,facing=up,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "x": 90
+    },
+    "axis_along_first=true,facing=down,linked=false": {
+      "model": "cbc_cryo_cannon:block/cryo_breech",
+      "x": 270
+    },
+    "axis_along_first=true,facing=down,linked=true": {
+      "model": "cbc_cryo_cannon:block/cryo_breech_linked",
+      "x": 270
+    }
+  }
+}

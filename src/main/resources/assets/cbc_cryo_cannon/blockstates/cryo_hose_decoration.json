@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "cbc_cryo_cannon:block/cryo_hose_decoration",
+      "x": 90
+    }
+  }
+}

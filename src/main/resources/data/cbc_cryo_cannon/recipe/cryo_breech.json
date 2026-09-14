@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["III", "BCB", "III"],
+  "key": {
+    "I": { "item": "minecraft:iron_block" },
+    "B": { "item": "minecraft:blue_ice" },
+    "C": { "item": "createbigcannons:incomplete_steel_sliding_breech" }
+  },
+  "result": { "id": "cbc_cryo_cannon:cryo_breech", "count": 1 }
+}

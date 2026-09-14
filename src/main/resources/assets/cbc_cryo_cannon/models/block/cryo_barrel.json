@@ -1,0 +1,83 @@
+{
+  "credit": "Blockbench model by Rhuloe",
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "gui_light": "front",
+  "textures": {
+    "end": "cbc_cryo_cannon:block/cannon_barrel/cryo_cannon_barrel_end",
+    "side": "cbc_cryo_cannon:block/cannon_barrel/cryo_cannon_barrel_side",
+    "inside": "cbc_cryo_cannon:block/cannon_barrel/cryo_cannon_barrel_inside",
+    "clean": "cbc_cryo_cannon:block/cannon_barrel/cryo_cannon_barrel_side_clean",
+    "particle": "cbc_cryo_cannon:block/cannon_barrel/cryo_cannon_barrel_side"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        16,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ],
+          "texture": "#side"
+        },
+        "east": {
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ],
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ],
+          "texture": "#side"
+        },
+        "west": {
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ],
+          "texture": "#side"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#end"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#end"
+        }
+      }
+    }
+  ]
+}

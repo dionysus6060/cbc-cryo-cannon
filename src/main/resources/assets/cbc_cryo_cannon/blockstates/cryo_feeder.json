@@ -1,0 +1,96 @@
+{
+  "variants": {
+    "facing=down,linked=false,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder",
+      "x": 90
+    },
+    "facing=down,linked=false,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_shells",
+      "x": 90
+    },
+    "facing=down,linked=true,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked",
+      "x": 90
+    },
+    "facing=down,linked=true,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked_shells",
+      "x": 90
+    },
+    "facing=up,linked=false,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder",
+      "x": 270
+    },
+    "facing=up,linked=false,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_shells",
+      "x": 270
+    },
+    "facing=up,linked=true,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked",
+      "x": 270
+    },
+    "facing=up,linked=true,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked_shells",
+      "x": 270
+    },
+    "facing=north,linked=false,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder"
+    },
+    "facing=north,linked=false,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_shells"
+    },
+    "facing=north,linked=true,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked"
+    },
+    "facing=north,linked=true,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked_shells"
+    },
+    "facing=south,linked=false,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder",
+      "y": 180
+    },
+    "facing=south,linked=false,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_shells",
+      "y": 180
+    },
+    "facing=south,linked=true,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked",
+      "y": 180
+    },
+    "facing=south,linked=true,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked_shells",
+      "y": 180
+    },
+    "facing=west,linked=false,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder",
+      "y": 270
+    },
+    "facing=west,linked=false,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_shells",
+      "y": 270
+    },
+    "facing=west,linked=true,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked",
+      "y": 270
+    },
+    "facing=west,linked=true,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked_shells",
+      "y": 270
+    },
+    "facing=east,linked=false,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder",
+      "y": 90
+    },
+    "facing=east,linked=false,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_shells",
+      "y": 90
+    },
+    "facing=east,linked=true,shells=false": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked",
+      "y": 90
+    },
+    "facing=east,linked=true,shells=true": {
+      "model": "cbc_cryo_cannon:block/cryo_feeder_linked_shells",
+      "y": 90
+    }
+  }
+}

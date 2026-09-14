@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cbc_cryo_cannon:cryo_breech",
+    "cbc_cryo_cannon:cryo_feeder",
+    "cbc_cryo_cannon:cryolite_shell"
+  ]
+}

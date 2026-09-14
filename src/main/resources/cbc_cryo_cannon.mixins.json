@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rhuloe.cbccryocannon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MountedBigCannonContraptionMixin"
+  ],
+  "client": [
+    "BigCannonPlumeParticleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

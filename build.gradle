@@ -1,0 +1,82 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.139'
+}
+
+group = 'com.rhuloe.cbccryocannon'
+version = '1.0.0'
+
+base {
+    archivesName = 'cbc-cryo-cannon'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = '21.1.233'
+    parchment {
+        minecraftVersion = '1.21.1'
+        mappingsVersion = '2024.11.17'
+    }
+    runs {
+        client {
+            client()
+            gameDirectory = project.file('run')
+        }
+        server {
+            server()
+            gameDirectory = project.file('run')
+            programArgument '--nogui'
+        }
+    }
+    mods {
+        cbc_cryo_cannon {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+repositories {
+    maven { url = 'https://maven.createmod.net' }
+    maven { url = 'https://maven.tterrag.com/' }
+    maven {
+        url = 'https://maven.realrobotix.me/master'
+        content {
+            includeGroup 'com.rbasamoyai'
+        }
+    }
+    maven { url = 'https://maven.ithundxr.dev/snapshots' }
+    mavenCentral()
+    flatDir { dirs 'libs' }
+}
+
+def sporeDependency = file('libs/spore-1.21.1-2.2.0j.jar').exists()
+    ? files('libs/spore-1.21.1-2.2.0j.jar')
+    : fileTree(dir: 'run/mods', includes: ['spore*.jar'])
+
+dependencies {
+    implementation("com.simibubi.create:create-1.21.1:6.0.10-280:slim") { transitive = false }
+    implementation("net.createmod.ponder:ponder-neoforge:1.0.82+mc1.21.1")
+    implementation("com.tterrag.registrate:Registrate:MC1.21-1.3.0+67")
+    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-1.21.1:1.0.6")
+    runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-1.21.1:1.0.6")
+    implementation("com.rbasamoyai:ritchiesprojectilelib:2.1.2+mc.1.21.1-neoforge-build.199") {
+        transitive = false
+    }
+    implementation("com.rbasamoyai:createbigcannons:5.11.7+mc.1.21.1") {
+        transitive = false
+    }
+    compileOnly sporeDependency
+    runtimeOnly sporeDependency
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}

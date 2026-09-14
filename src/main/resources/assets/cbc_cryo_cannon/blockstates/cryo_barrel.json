@@ -1,0 +1,108 @@
+{
+  "variants": {
+    "facing=up,segment=single": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel"
+    },
+    "facing=up,segment=end_facing": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end"
+    },
+    "facing=up,segment=end_opposite": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end_opposite",
+      "x": 180
+    },
+    "facing=up,segment=middle": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_middle"
+    },
+    "facing=down,segment=single": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel",
+      "x": 180
+    },
+    "facing=down,segment=end_facing": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end",
+      "x": 180
+    },
+    "facing=down,segment=end_opposite": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end_opposite"
+    },
+    "facing=down,segment=middle": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_middle",
+      "x": 180
+    },
+    "facing=north,segment=single": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel",
+      "x": 90
+    },
+    "facing=north,segment=end_facing": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end",
+      "x": 90
+    },
+    "facing=north,segment=end_opposite": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end_opposite",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north,segment=middle": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_middle",
+      "x": 90
+    },
+    "facing=south,segment=single": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,segment=end_facing": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,segment=end_opposite": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end_opposite",
+      "x": 90
+    },
+    "facing=south,segment=middle": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_middle",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east,segment=single": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,segment=end_facing": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,segment=end_opposite": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end_opposite",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,segment=middle": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_middle",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,segment=single": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,segment=end_facing": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,segment=end_opposite": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_end_opposite",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,segment=middle": {
+      "model": "cbc_cryo_cannon:block/cryo_barrel_middle",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
